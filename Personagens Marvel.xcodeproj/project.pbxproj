@@ -20,6 +20,10 @@
 		1D19A5732450A75000DD378B /* CharacteresListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D19A5722450A75000DD378B /* CharacteresListInteractor.swift */; };
 		1D19A5752450A7AD00DD378B /* CharacteresListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D19A5742450A7AD00DD378B /* CharacteresListPresenter.swift */; };
 		1D19A5782450A93500DD378B /* CharacteresListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D19A5772450A93500DD378B /* CharacteresListViewController.swift */; };
+		1D19A57C2450BA3600DD378B /* CharacteresDetailsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D19A57B2450BA3600DD378B /* CharacteresDetailsRouter.swift */; };
+		1D19A57E2450BA8A00DD378B /* CharacteresDetailsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D19A57D2450BA8A00DD378B /* CharacteresDetailsInteractor.swift */; };
+		1D19A5812450BAB500DD378B /* CharacteresDetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D19A5802450BAB400DD378B /* CharacteresDetailsPresenter.swift */; };
+		1D19A5832450BAF000DD378B /* CharacteresDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D19A5822450BAF000DD378B /* CharacteresDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +42,10 @@
 		1D19A5722450A75000DD378B /* CharacteresListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacteresListInteractor.swift; sourceTree = "<group>"; };
 		1D19A5742450A7AD00DD378B /* CharacteresListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacteresListPresenter.swift; sourceTree = "<group>"; };
 		1D19A5772450A93500DD378B /* CharacteresListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacteresListViewController.swift; sourceTree = "<group>"; };
+		1D19A57B2450BA3600DD378B /* CharacteresDetailsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacteresDetailsRouter.swift; sourceTree = "<group>"; };
+		1D19A57D2450BA8A00DD378B /* CharacteresDetailsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacteresDetailsInteractor.swift; sourceTree = "<group>"; };
+		1D19A5802450BAB400DD378B /* CharacteresDetailsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacteresDetailsPresenter.swift; sourceTree = "<group>"; };
+		1D19A5822450BAF000DD378B /* CharacteresDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacteresDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +149,10 @@
 		1D19A56C2450A21700DD378B /* CharacteresDetails */ = {
 			isa = PBXGroup;
 			children = (
+				1D19A5792450B9F300DD378B /* Views */,
+				1D19A57B2450BA3600DD378B /* CharacteresDetailsRouter.swift */,
+				1D19A57D2450BA8A00DD378B /* CharacteresDetailsInteractor.swift */,
+				1D19A5802450BAB400DD378B /* CharacteresDetailsPresenter.swift */,
 			);
 			path = CharacteresDetails;
 			sourceTree = "<group>";
@@ -148,6 +160,7 @@
 		1D19A56D2450A22600DD378B /* ExpensiveComic */ = {
 			isa = PBXGroup;
 			children = (
+				1D19A57A2450B9F800DD378B /* Views */,
 			);
 			path = ExpensiveComic;
 			sourceTree = "<group>";
@@ -156,6 +169,21 @@
 			isa = PBXGroup;
 			children = (
 				1D19A5772450A93500DD378B /* CharacteresListViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1D19A5792450B9F300DD378B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1D19A5822450BAF000DD378B /* CharacteresDetailsViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1D19A57A2450B9F800DD378B /* Views */ = {
+			isa = PBXGroup;
+			children = (
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -232,13 +260,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D19A5752450A7AD00DD378B /* CharacteresListPresenter.swift in Sources */,
+				1D19A5812450BAB500DD378B /* CharacteresDetailsPresenter.swift in Sources */,
+				1D19A57C2450BA3600DD378B /* CharacteresDetailsRouter.swift in Sources */,
 				1D19A5712450A4DE00DD378B /* ViewControllers.swift in Sources */,
+				1D19A57E2450BA8A00DD378B /* CharacteresDetailsInteractor.swift in Sources */,
 				1D19A56A2450A02B00DD378B /* Comics.swift in Sources */,
 				1D19A553245097A200DD378B /* ViewController.swift in Sources */,
 				1D19A5782450A93500DD378B /* CharacteresListViewController.swift in Sources */,
 				1D19A56F2450A2B700DD378B /* CharacteresListRouter.swift in Sources */,
 				1D19A56824509CF900DD378B /* Character.swift in Sources */,
 				1D19A54F245097A200DD378B /* AppDelegate.swift in Sources */,
+				1D19A5832450BAF000DD378B /* CharacteresDetailsViewController.swift in Sources */,
 				1D19A5732450A75000DD378B /* CharacteresListInteractor.swift in Sources */,
 				1D19A551245097A200DD378B /* SceneDelegate.swift in Sources */,
 			);
